@@ -13,9 +13,13 @@ def first(arr,x,n):
             high =mid -1;
     return res;
 
+def sumi(arr):
+    return sum(arr)
+
 # Driver code
 arr = [1, 2, 2, 2, 2, 3, 4, 7, 8, 8]
 n = len(arr)
 x = 2
  
 print("First Occurrence =", first(arr, x, n))
+print("Sum of n is : ", sumi(arr))
