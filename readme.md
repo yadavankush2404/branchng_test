@@ -15,8 +15,11 @@
 ### fetch the latest backend branch and rebase
 
 `git checkout backend`
+
 `git pull origin backend`
+
 `git checkout feature/add-user-api`
+
 `git rebase backend`
 
 ### create a pull request
